@@ -1,6 +1,6 @@
 local lua_information = 
 {
-    description = "Airflow grenade timer",
+    description = "small p2c inspired grenade timer",
     coder = "kayron (REAL)",
     version = "ZG0gbWluaSM2NTc2IHRvIHdpbiBzdGFybGlnaHQgcHJpdmF0ZSB2ZXJzaW9u"
 }
