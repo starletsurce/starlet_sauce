@@ -218,7 +218,7 @@ local function rv()
     th = {}
 end
 
-nb("VISUALS", "Other ESP", "Reset bullet tracers", rv)
+nb("VISUALS", "Other ESP", "Reset extras", rv)
 sec("paint", render_bullet_trace)
 sec("round_start", rv)
 sec("paint", peint)
