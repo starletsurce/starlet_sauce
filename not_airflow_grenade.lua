@@ -20,9 +20,9 @@ local az =
    b("VISUALS", "Other ESP", "Fire grenades", {"Text","Icon","Timer"}),
    b("VISUALS", "Other ESP", "Hit extras", {"Tracers","Damage"}),
    bz("VISUALS", "Other ESP","Clear extras",1,10,10,true,"s",1,"s"),
-   nigga2 = ui.new_label("VISUALS","Other ESP","Tracers"),
+   wtf = ui.new_label("VISUALS","Other ESP","Tracers"),
    cp("VISUALS","Other ESP","Tracers",255,255,255,255),
-   nigga = ui.new_label("VISUALS","Other ESP","Damage"),
+   wtf2 = ui.new_label("VISUALS","Other ESP","Damage"),
    cp("VISUALS","Other ESP","Damage",255,255,255,255),
 }
 
