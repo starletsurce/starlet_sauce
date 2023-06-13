@@ -20,9 +20,9 @@ local az =
    b("VISUALS", "Other ESP", "Fire grenades", {"Text","Icon","Timer"}),
    b("VISUALS", "Other ESP", "Hit extras", {"Tracers","Damage"}),
    bz("VISUALS", "Other ESP","Clear extras",1,10,10,true,"s",1,"s"),
-   wtf = ui.new_label("VISUALS","Other ESP","Tracers"),
+   nigga2 = ui.new_label("VISUALS","Other ESP","Tracers"),
    cp("VISUALS","Other ESP","Tracers",255,255,255,255),
-   wtf2 = ui.new_label("VISUALS","Other ESP","Damage"),
+   nigga = ui.new_label("VISUALS","Other ESP","Damage"),
    cp("VISUALS","Other ESP","Damage",255,255,255,255),
 }
 
@@ -57,7 +57,7 @@ local function peint()
     for k,v in ip(j("CSmokeGrenadeProjectile")) do
        
         local pz = vector(m(v))
-        local w,h = f(pz)
+        local w,h = f(pz:unpack())
 
         if w == nil then break end
 
@@ -108,7 +108,7 @@ local function peint()
             end
         end
 
-        local w,h = f(pz)    
+        local w,h = f(pz:unpack())    
         if w == nil then break end
 
         local q = g(v, "m_nFireEffectTickBegin", k)
@@ -218,7 +218,6 @@ local function rv()
     th = {}
 end
 
-nb("VISUALS", "Other ESP", "Reset extras", rv)
-sec("paint", render_bullet_trace)
+nb("VISUALS", "Other ESP", "Reset Extras", rv)
 sec("round_start", rv)
-sec("paint", peint)
+client.set_event_callback("paint", peint)
